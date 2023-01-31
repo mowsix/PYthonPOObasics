@@ -52,6 +52,55 @@ print(operacion.multiplicacion)
 
 #======================================================================================
 
+#Metodos de acceso GET Y SET
+class cuenta:
+    def __init__(self, pro, sal, mon):
+        self.__propietario=pro
+        self.__saldo=sal
+        self.__moneda=mon
+
+    #Metodo GET =======
+    def get_Propietario(self):
+        return self.__propietario
+
+    def get_Saldo(self):
+        return self.__saldo
+
+    def get_Moneda(self):
+        return self.__moneda
+
+    #Metodo SET =============
+
+    def set_Moneda(self, moneda):
+        self.__moneda=moneda
+
+cuenta1=cuenta("Oscar",1500,"dolares")
+
+print(cuenta1.get_Propietario())
+print(cuenta1.get_Saldo())
+cuenta1.set_Moneda("Pesos")
+print(cuenta1.get_Moneda())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Funciones con atributos
 
