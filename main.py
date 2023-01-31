@@ -11,6 +11,8 @@ class profesiones:  # clase
 trabajo = profesiones()
 print(profesiones.profesores)
 
+#======================================================================================
+
 #CREAR OBJETOS FUERA DE LA CLASE
 class nombres:
     pass #esto indica que es el final de la clase
@@ -24,6 +26,7 @@ maria.edad=41
 maria.pais="Argentina"
 print(victor.edad)
 
+#======================================================================================
 
 #METODOS
 #La palabra reservada def nos indica que vamos a crear un metodo seguido del nombre
@@ -35,4 +38,22 @@ class matematicas:
         self.numero2=45
 s=matematicas()
 print(s.numero1+s.numero2)
+
+#======================================================================================
+
+#Agregar variables a un solo metodo
+class Calculadora:
+    def __init__(self,n1,n2):
+        self.suma=n1+n2
+        self.resta=n1-n2
+        self.multiplicacion=n1*n2
+operacion=Calculadora(13,78)
+print(operacion.multiplicacion)
+
+#======================================================================================
+
+
+#Funciones con atributos
+
+
 
