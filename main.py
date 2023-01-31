@@ -87,22 +87,8 @@ print(cuenta1.get_Moneda())
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Herencia
 
 
 #Funciones con atributos
-
-
 
